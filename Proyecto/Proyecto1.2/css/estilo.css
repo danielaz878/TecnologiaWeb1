@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background: white;
+    overflow-x:hidden;
+}
+
+/**Menu**/
+#header{
+    position: relative;
+    width: 100%;
+}
+.menu{
+position:fixed;
+top: 0px;
+left: 0;
+width: 100%;
+height: 60px;
+background: white;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 9999;
+font-family: 'Muli', sans-serif;
+}
+
+.menu .lista-menu{
+    margin-right: 20px;
+}
+
+.menu .lista-menu .lista{
+    display: flex;
+}
+.menu .lista-menu .lista li{
+    list-style: none;
+}
+.menu .lista-menu .lista li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 8px;
+    color: black;
+    border-radius: 24px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.menu .lista-menu .lista li a.forma{
+    background: #FCB40F;
+    color: black;
+}
+.menu .lista-menu .lista li a:hover{
+    background: #FCB40F;
+    color: black; 
+}
+
+/** Imagen del Menu **/
+
+.img-header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../Imagenes/verduras.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.img-header .bienvenida{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Pacifico', cursive;
+    /*font-family: 'Raleway', sans-serif;*/
+
+}
+.img-header .bienvenida h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 200;
+}
+
+.img-header .bienvenida hr{
+    width: 500px;
+    height: 2px;
+    background: white;
+    border: none;
+    margin-top: 5px;
+}
+.img-header .bienvenida p{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.img-header .bienvenida > button{
+    width: 170px;
+    height: 40px;
+    background: #FCB40F;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.img-header .bienvenida > button:hover{
+    background: #FDFF71;
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+
+
+/**Quienes somos**/
+.parte-somos{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000%;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+.titulo{
+    color: #FCB40F;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 60px 0;
+}
+ .parte-somos .cuerpo-somos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-somos{
+    width: 25%;
+}
+.parte-somos .texto-somos{
+    width: 48%;
+
+}
+.texto-somos p{
+    font-weight: 300;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+/**Footer**/
+footer{
+    background: #494948;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cuerpo-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.ultimo-footer{
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+}
+.ultimo-footer h4{
+    color: white;
+    border-bottom: 3px solid #FCB40F;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #cccc;
+
+}

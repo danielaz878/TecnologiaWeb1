@@ -21,6 +21,7 @@ left: 0;
 width: 100%;
 height: 60px;
 background: white;
+overflow: hidden;
 
 
 display: flex;
@@ -56,6 +57,61 @@ font-family: 'Muli', sans-serif;
 .menu .lista-menu .lista li a:hover{
     background: #FCB40F;
     color: black; 
+}
+.btn-menu > .fas{
+    display: none;
+}
+
+@media only screen and (max-width:900px){
+    .btn-menu > .fas{
+        display: block;
+        position:absolute;
+        right: 30px;
+        top: 20px;
+        font-size: 28px;
+        color: black;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .btn-menu > .fa-times{color: #FCB40F;}
+    .btn-menu > .fas:hover{color:#FCB40F;}
+    .menu .logo-titulo{margin-left: 30px;}
+    .menu .lista-menu{
+        position: fixed;
+        top:60px;
+        left:-100%;
+        background:#fff;
+        width: 100%;
+        height: calc(100vh - 60px);
+    }
+    .menu .lista-menu .lista{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-top:4px solid #FCB40F;
+    }
+    .menu .lista-menu ul li{
+        width: 90%;
+        border-bottom: 2px solid black;
+        display: flex;
+        justify-content: center;
+    }
+    .menu .lista-menu ul li a{
+        font-size: 20px;
+        text-align: center;
+        padding:12px 0px;
+    }
+    .menu .lista-menu ul li a.active{
+        background: none;
+        color:#FCB40F;
+    }
+    .menu .lista-menu ul li a:hover{
+        background: none;
+        color:#FCB40F;
+    }
 }
 
 /** Imagen del Menu **/
@@ -129,6 +185,16 @@ a:visited{
 }
 
 
+@media only screen and (max-width:773px ){
+    .img-header .bienvenida h1{font-size: 40px;}
+    .img-header .bienvenida > button{width: 130px; font-size: 20px;}
+}
+@media only screen and (max-width:590px){
+    .img-header .bienvenida h1{font-size: 30px;}
+    .img-header .bienvenida hr{width: 100px;}
+    .img-header .bienvenida p{font-size: 17px;}
+    .img-header .bienvenida > button{width: 100px; font-size: 17px;}
+}
 /**Quienes somos**/
 .parte-somos{
     padding: 60px 0;
@@ -199,3 +265,5 @@ footer{
     color: #cccc;
 
 }
+
+/* Media Query for medium + screens */

@@ -159,7 +159,7 @@ font-family: 'Muli', sans-serif;
     color: white;
     margin-top: 20px;
 }
-.img-header .bienvenida > button{
+.img-header .bienvenida .boton1 .boton2{
     width: 170px;
     height: 40px;
     background: #FCB40F;
@@ -172,8 +172,9 @@ font-family: 'Muli', sans-serif;
     margin-top: 20px;
     cursor: pointer;
     transition: 0.5s;
+    list-style: none;
 }
-.img-header .bienvenida > button:hover{
+.img-header .bienvenida .boton1 .boton2:hover{
     background: #FDFF71;
     color: black;
 }

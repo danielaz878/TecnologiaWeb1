@@ -1,0 +1,57 @@
+.main {
+    width: 100%;
+    font-family: 'Muli', sans-serif;
+    
+ }
+    .main .imagen {
+      width: 100%; }
+      .main .imagen img {
+        width: 100%;
+        padding-top: 80px; 
+        
+       }
+
+
+.main .post{
+    position: relative;
+    width: 90%;
+    
+}
+
+.main .post .header-content{
+    width: 90%;
+    padding-top: 50px;
+    margin: auto;
+}
+.main .post .header-content .header-title{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    
+}
+
+.main .post .header-content .header-title hr{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+.titulo-grande{
+    padding: 20px 0;
+    width: 90%;
+    max-width: 1000%;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+ }
+ .titulo{
+    color: #FCB40F;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    
+}

@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <title>ZuperExpress.com</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/estiloimg.css">
+    
+    
 </head>
 <body>
+
     <!--menu-->
     <header id="header">
     <nav class="menu">
         <div class="logo-titulo">
             <img src="Imagenes/logo.png" alt="logotivo del proyecto" width="170">
             <span class="btn-menu"><i class="fas">&#9776; Menu</i></span>
+            
 
         </div>
         <div class="lista-menu">
             <ul class="lista">
+                
                 <li><a href="index.html" class="active">Inicio</a></li>
                 <li><a href="#">Acerca de</a></li>
                 <li><a href="#">Tutorial</a></li>
@@ -33,66 +37,27 @@
         </div>
     </nav>
 
+    <!--Imagen de Bienvenida-->
+
     </header>
 
-     <!--Formulario-->
+     <!--editar-->
      <main class="main">
         <div class="imagen">
-            <img src="Imagenes/formulario.png" alt="">
+            <img src="Imagenes/catalogo.png" alt="">
         </div>
         <div class="posts">
             <div class="header-content">
                 <div class="header-title">
 
                     <hr>
-                 <section class="titulo-grande">
+                 <section class="parte-somos">
                         <h3 class="titulo">¿Quieres publicar tu negocio?</h3>
                         <h3 class="titulo">¡Escríbenos y forma parte del equipo!</h3>
                     </section>
 
                 </div>
-                <div class="formulario-content">
-                    <form id="formulario" action="gracias.html" method="">
-                    <label for="user">Nombre Completo:</label>
-                    <input type="text" id="user" name="user" size="30"  placeholder="Nombre y Apellido" required>
-
-                    <label for="email">Correo:</label>
-                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
-
-
-                    <label for="phone">Telefono:</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Ingresa tu numero telefonico" required>
-
-                    <label for="categoria">Categoria</label>
-                    <select name="categoria" id="categoria" required>
-                        <option value="none">Elegir: </option>
-                        <option value="Comida-Rápida">Comida Rápida </option>
-                        <option value="Comida-Nacional">Comida Nacional </option>
-                        <option value="Reposteria">Cafeteria y Reposteria </option>
-                        <option value="Servicio-express">Servicio Express </option>
-                    </select>
-
-                    <label for="file">Imagen</label>
-                    <input type="file" name="file" accept="image/*" required>
-
-                    <label for="homepage">Pagina de Red Social: (Facebook, Instagram, etc)</label>
-                    <input type="url" id="homepage" name="homepage" placeholder="https://example.com" pattern="https://.*" required> 
-                
-                    <label for="fecha">Fecha:</label>
-                    <input type="date" id="fecha" name="fecha" required>
-
-                    <br>
-
-                    <input type="checkbox" id="terminos" name="terminos" required> 
-                    <label for="terminos"> Acepto los Terminos</label>
-
-                    <input type="submit" value="Enviar">
-                    <br>
-                    <div class="mensaje-form">
-                        <p>Gracias por llenar este formulario</p>
-                    </div>
-                     </form>
-                </div>
+               
             </div>
         </div>
     </main>
@@ -118,9 +83,9 @@
         <h2 class="titulo-final">Todos los Derechos Reservados</h2>
         <br>
         <script class="titulo-final" src="js/hora.js"></script>
+        
      </footer>
    
-
      <script src="js/menu.js"></script>  
 </body>
 </html>

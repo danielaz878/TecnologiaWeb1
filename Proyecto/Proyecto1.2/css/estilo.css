@@ -138,7 +138,7 @@ font-family: 'Muli', sans-serif;
     align-items: center;
     flex-direction: column;
     font-family: 'Pacifico', cursive;
-    /*font-family: 'Raleway', sans-serif;*/
+  
 
 }
 .img-header .bienvenida h1{
@@ -198,7 +198,7 @@ a:visited{
 }
 /**Quienes somos**/
 .parte-somos{
-    padding: 60px 0;
+    padding: 40px 0;
     width: 90%;
     max-width: 1000%;
     margin: auto;
@@ -218,10 +218,10 @@ a:visited{
     justify-content: space-evenly;
 }
 .img-somos{
-    width: 25%;
+    width: 20%;
 }
 .parte-somos .texto-somos{
-    width: 48%;
+    width: 45%;
 
 }
 .texto-somos p{
@@ -231,12 +231,31 @@ a:visited{
 
 }
 
+@media screen and (max-width:900px){
+.cuerpo-somos{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte-somos .texto-somos{
+    width: 90%;
+}
+
+.img-somos{
+    width: 90%;
+}
+}
+
 /**Footer**/
 footer{
     background: #494948;
     padding: 60px 0 30px 0;
-    margin: auto;
     overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    color: #cccc;
 }
 
 .cuerpo-footer{
@@ -267,12 +286,36 @@ footer{
 
 }
 
-footer{
-    text-align: center;
-    font-size: 20px;
-    margin: 20px 0 0 0;
-    color: #cccc;
+@media screen and (max-width:500px){
+    .img-somos{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .parte-somos .texto-somos{
+        width: 95%;
+    }
+
+    .cuerpo-footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    .ultimo-footer{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+
+    .ultimo-footer p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo-final{
+        font-size: 20px;
+    }
+
 }
-
-
 

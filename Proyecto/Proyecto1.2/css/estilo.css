@@ -206,8 +206,9 @@ a:visited{
     font-family: 'Quicksand', sans-serif;
 }
 .titulo{
-    color: #FCB40F;
+    color: #FF7800;
     font-size: 31px;
+    font-size: normal;
     text-align: center;
     margin-bottom: 60px;
     padding: 60px 0;
@@ -255,7 +256,7 @@ footer{
     text-align: center;
     font-size: 20px;
     margin: 20px 0 0 0;
-    color: #cccc;
+    color: rgb(255, 255, 255);
 }
 
 .cuerpo-footer{
@@ -264,7 +265,7 @@ footer{
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #fcf9f9;
 }
 
 .ultimo-footer{
@@ -282,7 +283,7 @@ footer{
     text-align: center;
     font-size: 20px;
     margin: 20px 0 0 0;
-    color: #cccc;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -308,7 +309,7 @@ footer{
 
 
     .ultimo-footer p{
-        color: #ccc;
+        color: rgb(255, 254, 254);
         border-bottom: 1px solid #f2f2f2;
         padding-bottom: 20px;
     }

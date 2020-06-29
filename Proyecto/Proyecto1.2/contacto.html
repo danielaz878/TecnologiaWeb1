@@ -40,7 +40,7 @@
      <!--Formulario-->
      <main class="main">
         <div class="imagen">
-            <img src="Imagenes/formulario.png" alt="">
+            <img src="Imagenes/formulario.png" alt="Portada de formulario">
         </div>
         <div class="posts">
             <div class="header-content">
@@ -56,17 +56,17 @@
                 <div class="formulario-content">
                     <form id="formulario" action="gracias.html" method="">
                     <label for="user">Nombre Completo:</label>
-                    <input type="text" id="user" name="user" size="30"  placeholder="Nombre y Apellido" required>
+                    <input type="text" id="user" name="usuario" size="30"  placeholder="Nombre y Apellido" required>
 
-                    <label for="email">Correo:</label>
-                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="direccion" placeholder="example@gmail.com" required>
 
 
                     <label for="phone">Telefono:</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Ingresa tu numero telefonico" required>
+                    <input type="tel" id="phone" name="telefono" placeholder="Ingresa tu numero telefonico" required>
 
                     <label for="categoria">Categoria</label>
-                    <select name="categoria" id="categoria" required>
+                    <select name="tipo" id="categoria" required>
                         <option value="none">Elegir: </option>
                         <option value="Comida-Rápida">Comida Rápida </option>
                         <option value="Comida-Nacional">Comida Nacional </option>
@@ -74,18 +74,18 @@
                         <option value="Servicio-express">Servicio Express </option>
                     </select>
 
-                    <label for="file">Imagen</label>
-                    <input type="file" name="file" accept="image/*" required>
+                    <label for="foto">Imagen</label>
+                    <input type="file" id="foto" name="picture" accept="image/*" required>
 
                     <label for="homepage">Pagina de Red Social: (Facebook, Instagram, etc)</label>
-                    <input type="url" id="homepage" name="homepage" placeholder="https://example.com" pattern="https://.*" required> 
+                    <input type="url" id="homepage" name="redsocial" placeholder="https://example.com" pattern="https://.*" required> 
                 
                     <label for="fecha">Fecha:</label>
-                    <input type="date" id="fecha" name="fecha" required>
+                    <input type="date" id="fecha" name="fechaactual" required>
 
                     <br>
 
-                    <input type="checkbox" id="terminos" name="terminos" required> 
+                    <input type="checkbox" id="terminos" name="aceptar" required> 
                     <label for="terminos"> Acepto los Terminos</label>
 
                     <input type="submit" value="Enviar">

@@ -1,4 +1,4 @@
-.contenedor {
+.main .contenedor {
     width: 100%;
     max-width: 1200px;
     height: 230px;
@@ -8,7 +8,7 @@
     margin: auto;
 }
 
-.contenedor .galeria{
+.main .contenedor .galeria{
     width: 350px;
     height: 430px;
     border-radius: 8px;
@@ -23,28 +23,40 @@
 
 }
 
-.contenedor .galeria:hover{
+.main .contenedor .galeria:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0,0,0,0.2);
 }
 
-.contenedor .galeria img{
+.main .contenedor .galeria img{
     width: 70%;
     height: 70%;
 }
 
-.contenedor .galeria h4{
+.main .contenedor .galeria h4{
     font-weight: 600;
 }
 
-.contenedor .galeria p{
+.main .contenedor .galeria p{
     padding: 0 4rem;
     font-size: 16px;
     font-weight: 300;
     padding: 5px;
 }
-.contenedor .galeria a{
+.main .contenedor .galeria a{
     font-weight: 500;
     text-decoration: none;
-    color: seagreen;
+    color: blue;
+    border-radius: 24px;
+    transition: 0.3s;
+}
+
+.main .contenedor .galeria a.forma{
+background: #FCB40F;
+    color: black;
+}
+
+.main .contenedor .galeria a:hover{
+background: #FCB40F;
+    color: black; 
 }
